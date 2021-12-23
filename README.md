@@ -1,2 +1,1 @@
-# DeepLearningLab1
-# DeepLearningLab2
+# DeepLearningLab1 & DeepLearningLab2
