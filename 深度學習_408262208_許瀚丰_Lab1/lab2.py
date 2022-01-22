@@ -94,7 +94,7 @@ def draw(dataset, test, weights, bias): #畫圖的method input(訓練資料, 測
     return ans[0] / sum(ans)    #回傳預測準確度
 
 if __name__ == "__main__":
-    dataset = read_data("Iris_trainning.txt")   #dataset存入Iris_trainning.txt中的資料
+    dataset = read_data("Iris_training.txt")   #dataset存入Iris_trainning.txt中的資料
     test = read_data("Iris_test.txt")   #test存入Iris_test.txt中的資料
     weights, bias = pla(dataset)    #將訓練資料丟進PLA_algorithm訓練，回傳權重weights(w0, w1) 與偏差值bias
     print(f"w0 = {weights[0]} w1 = {weights[1]} b = {bias}")    #輸出我們的weights與bias
